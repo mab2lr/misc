@@ -10,6 +10,6 @@
 # ignoriert alle Dateien im build/ Verzeichnis
 build/
 # ignoriert doc/notes.txt, aber nicht doc/server/arch.txt
-doc/*.txt
+*.txt
 # ignoriert alle .txt Dateien unterhalb des doc/ Verzeichnis
 doc/**/*.txt
