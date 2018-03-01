@@ -1,0 +1,15 @@
+# ein Kommentar - dieser wird ignoriert
+# ignoriert alle Dateien, die mit .a enden
+*.a
+# ignoriert alle Dateien, die mit .a oder o enden
+*.[ao]
+# nicht aber lib.a Dateien (obwohl obige Zeile *.a ignoriert)
+!lib.a
+# ignoriert eine TODO Datei nur im Wurzelverzeichnis, nicht aber build/TODO
+/TODO
+# ignoriert alle Dateien im build/ Verzeichnis
+build/
+# ignoriert doc/notes.txt, aber nicht doc/server/arch.txt
+doc/*.txt
+# ignoriert alle .txt Dateien unterhalb des doc/ Verzeichnis
+doc/**/*.txt
